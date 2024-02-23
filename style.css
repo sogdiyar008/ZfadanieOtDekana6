@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #loginScreen {
+    padding: 40px;
+    display: flex;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
+  .map1 {
+    background-image: url(../image/map1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  .map2 {
+    background-image: url(../image/map2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .map3 {
+    background-image: url(../image/map3.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  body {
+    background-image: url(./image/map1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  .wrap {
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 19px;
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    margin: 0 auto;
+    font-size: 56px;
+}
+
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+  }
+
+  select {
+    height: 35px;
+    font-size: 18px;
+  }
+  
+  input {
+    height: 35px;
+    padding-left: 15px;
+    font-size: 18px;
+    }
+
+    button {
+        background: linear-gradient(rgb(189, 189, 189), rgb(155, 155, 155));
+        height: 35px;
+        border: 0;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 16px;
+        box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.5);
+
+    }
+
+  .wrap_game {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background-color: #ffffffda;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 400px;
+  }
+  
+  #gameField {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background-size: cover;
+  }
+  
+  
+  .finish {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url('./image/finish.png');
+    background-size: cover;
+  }
+  
+  .monster {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-image: url('./image/monsters.gif');
+    background-size: cover;
+  }
+  
+  
+  .trap {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url('./image/trap.png');
+    background-size: cover;
+  } 
+  
+  .player {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url('./image/player.png');
+    background-size: cover;
+  } 
+  
+  
+  
+  #resultScreen {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffffda;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
